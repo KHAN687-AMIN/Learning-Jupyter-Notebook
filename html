@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amin - AI Engineering: Showcasing innovative AI solutions and projects.">
+    <meta name="keywords" content="AI, Machine Learning, Deep Learning, Projects, Technology">
+    <meta name="author" content="Amin">
+    <title>Amin - AI Engineering</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f1f6;
+            color: #333;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 100px auto 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .project {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: scale(1.02);
+        }
+
+        .project h3 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        .contact-button {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            border: none;
+            color: #fff;
+            padding: 14px 28px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .contact-button:hover {
+            background: linear-gradient(135deg, #0056b3, #007bff);
+            transform: translateY(-2px);
+        }
+
+        .email-link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .email-link:hover {
+            color: #0056b3;
+        }
+
+        footer {
+            background: #ffffff;
+            color: #333;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .background-3d {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.pexels.com/photos/586566/pexels-photo-586566.jpeg') center center/cover no-repeat;
+            transform-style: preserve-3d;
+            z-index: -1;
+            animation: rotate-background 30s linear infinite;
+        }
+
+        @keyframes rotate-background {
+            0% { transform: rotateY(0deg); }
+            100% { transform: rotateY(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amin - AI Engineering</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-3d"></div>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am Amin, a passionate AI engineer with a focus on building innovative and impactful solutions using cutting-edge technologies.
+                My expertise lies in developing advanced AI models, machine learning algorithms, and deep learning applications.
+                I am always eager to learn and explore new frontiers in the field of AI.
+            </p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: AI-Powered Image Recognition</h3>
+                <p>Developed a deep learning model for image recognition with high accuracy.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Natural Language Processing Chatbot</h3>
+                <p>Built a chatbot using NLP techniques to provide engaging and informative interactions.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Predictive Analytics for Business</h3>
+                <p>Utilized machine learning to build a system for forecasting business trends and optimizing operations.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you have any inquiries or wish to get in touch, you can reach me at:</p>
+            <p><strong>Email:</strong> <a href="mailto:pubgcorporation894@gmail.com" class="email-link">pubgcorporation894@gmail.com</a></p>
+            <button class="contact-button">Phone: 031567890</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Amin - AI Engineering</p>
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
